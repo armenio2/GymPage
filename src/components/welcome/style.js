@@ -5,7 +5,7 @@ import backgroundImage from '../../assets/background1.avif'
 export const Body = styled.body`
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-image: url('${backgroundImage}'); 
   background-size: cover;
   background-repeat: no-repeat;
@@ -38,14 +38,13 @@ a {
   text-decoration: none;
   margin-left: 20px;
   font-weight: bold;
-  margin-top: 50px;
 }
 `;
 
 export const Titulo1 = styled.div`
 p{
-  font-weight: bolds;
-  font-size: 64px;
+  font-weight: bold;
+  font-size: 48px;
 }
 `
 
@@ -54,9 +53,9 @@ export const ContentRight = styled.div`
   padding: 20px;
   width: 25%;
   border-radius: 8px;
-  text-align: right;
+  text-align: center;
   color: white;
-  `;
+ `;
 
 export const Selo = styled.div`
   text-align-last: center;
@@ -65,3 +64,7 @@ img {
     max-width: 150px;
   }
 `;
+
+export const Text = styled.div`
+
+`

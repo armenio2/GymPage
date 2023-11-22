@@ -5,7 +5,8 @@ import {
   ContentWrapper,
   Body,
   Selo,
-  Titulo1
+  Titulo1,
+  Text
 } from './style';
 import Header from '../header/header'
 import ImgSelo from '../../assets/selo.webp'
@@ -20,12 +21,13 @@ const Navbar = () => {
           <ContentLeft>
             <div>
               <Titulo1>
-              <p>Desbravando o Universo da Musculação</p>
+                <p>Desbravando o Universo da Musculação</p>
               </Titulo1>
-              <p>No reino da busca incessante pela força e estética, 
-                a musculação emerge como uma disciplina que vai muito além de levantar pesos. 
-                É um compromisso diário com a superação pessoal, 
+              <p>No reino da busca incessante pela força e estética,
+                a musculação emerge como uma disciplina que vai muito além de levantar pesos.
+                É um compromisso diário com a superação pessoal,
                 um elo entre mente e corpo que se fortalece a cada repetição.</p>
+              <br></br>
             </div>
             <div>
               <a href="#">Descubra Mais</a>
@@ -34,16 +36,14 @@ const Navbar = () => {
           {/* Conteúdos à direita */}
           <ContentRight>
             <Selo>
-            <img src= {ImgSelo} alt="Selo" />
+              <img src={ImgSelo} alt="Selo" />
             </Selo>
-            <div>
+            <Text>
               <p>Conteúdo à Direita 1</p>
               <p>Descrição do Conteúdo à Direita 1.</p>
-            </div>
-            <div>
               <p>Conteúdo à Direita 2</p>
               <p>Descrição do Conteúdo à Direita 2.</p>
-            </div>
+            </Text>
           </ContentRight>
         </ContentWrapper>
       </>

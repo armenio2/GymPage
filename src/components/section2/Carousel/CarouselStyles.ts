@@ -10,10 +10,14 @@ export const CarouselImageContainer = styled.div<CarouselImageContainerProps>`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px;
+  padding: 40px 15px;
   ${({ larger }: CarouselImageContainerProps) =>
     larger &&
     `
+    img{
+      height: 80%;
+
+    }
     flex: 2; /* A imagem maior ocupa mais espaço */
   `}
 `;

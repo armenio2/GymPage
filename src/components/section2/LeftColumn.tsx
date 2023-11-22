@@ -1,12 +1,16 @@
 import React from 'react';
-import {LeftColumnContainer} from './style.ts'
+import { LeftColumnContainer, Who1, Who2 } from './style.ts'
 
 
 const LeftColumn: React.FC = () => {
   return (
     <LeftColumnContainer>
-      <p>Texto na Coluna Esquerda</p>
-      <p>Este é um exemplo de texto na coluna esquerda.</p>
+      <Who1>
+        <p>Quem somos nós?</p>
+      </Who1>
+      <Who2>
+        <p>Somos uma academia dedicada ao bem-estar e condicionamento físico.</p>
+      </Who2>
     </LeftColumnContainer>
   );
 };

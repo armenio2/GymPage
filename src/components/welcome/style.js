@@ -14,38 +14,38 @@ export const Body = styled.body`
 `;
 
 export const ContentWrapper = styled.div`
-margin-left: 10%;
-margin-right: 10%;
-display: flex;
-
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
 `
 
 export const ContentLeft = styled.div`
-width: 75%;
-padding: 20px;
-border-radius: 8px;
-margin-top: 80px;
-text-align: left;
-color: white;
-
-
-p{
-  font-size: 20px;
-  width: 80%;
-}
-a {
+  width: 75%;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 80px;
+  text-align: left;
   color: white;
-  text-decoration: none;
-  margin-left: 20px;
-  font-weight: bold;
-}
+
+
+  p{
+    font-size: 20px;
+    width: 80%;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+  }
 `;
 
 export const Titulo1 = styled.div`
-p{
-  font-weight: bold;
-  font-size: 48px;
-}
+  p{
+    font-weight: bold;
+    font-size: 48px;
+  }
+  text-align: center;
 `
 
 export const ContentRight = styled.div`
@@ -59,8 +59,7 @@ export const ContentRight = styled.div`
 
 export const Selo = styled.div`
   text-align-last: center;
-
-img {
+  img {
     max-width: 150px;
   }
 `;

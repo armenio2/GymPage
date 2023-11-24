@@ -14,7 +14,7 @@ export const StyledForm = styled.form`
 `;
 
 export const FormCenter = styled.div`
-align-items: center;
+padding: 100px;
 `
 
 export const FormLabel = styled.label`
@@ -50,5 +50,5 @@ export const FormBack = styled.body`
   background-size: cover;
   background-repeat: no-repeat;
   width: 100vw;
-  height: 100vh;
+  height: 60vh;
 `;

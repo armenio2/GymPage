@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import backgroundImage from '../../assets/background1.avif'
-
+import backgroundImage2 from '../../assets/background1.avif'
+import backgroundImage from '../../assets/background2.jpg'
 
 export const Body = styled.body`
   margin: 0;

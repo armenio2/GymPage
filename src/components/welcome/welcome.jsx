@@ -9,7 +9,7 @@ import {
   Text
 } from './style';
 import Header from '../header/header'
-import {welcomeTexts} from '../../constants/constants'
+import {welcomeTexts} from '../../constants/constants' 
 
 const Navbar = () => {
   return (

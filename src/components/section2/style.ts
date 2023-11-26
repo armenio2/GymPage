@@ -14,16 +14,28 @@ export const LeftColumnContainer = styled.div`
     color: white;
    margin: 0px;
   }
+
+
 `;
 
 export const Who2 = styled.div`
 font-size: 40px;
 margin: 0px;
 font-weight: bold;
+
+@media (max-width: 800px) {
+    p{
+    font-size: 20px;
+  }
 `
 
 export const Who1 = styled.div`
 font-size: 20px;
+
+@media (max-width: 800px) {
+  p{
+    font-size: 14px;
+  }
 `
 
 export const RightColumnContainer = styled.div`
@@ -34,6 +46,9 @@ export const RightColumnContainer = styled.div`
   p{
     color: white;
   }
+
+  @media (max-width: 800px) {
+    margin-top: 0px;
 `;
 
 export const Link = styled.a`

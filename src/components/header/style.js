@@ -12,6 +12,12 @@ export const NavbarContainer = styled.div`
   padding: 15px;
   margin-left: 10%;
   margin-right: 10%;
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+    padding-top: 0px;
+  
+  }
 `;
 
 export const Logo = styled.div`
@@ -19,6 +25,12 @@ export const Logo = styled.div`
 img {
     max-width: 150px;
   }
+
+  @media (max-width: 800px) {
+    max-height: 120px;
+  
+  }
+
 `;
 
 
@@ -33,3 +45,4 @@ export const NavLinks = styled.div`
     margin-left: 20px;
   }
 `;
+

@@ -50,5 +50,5 @@ export const FormBack = styled.body`
   background-size: cover;
   background-repeat: no-repeat;
   width: 100vw;
-  height: 60vh;
+  height: 100vh;
 `;

@@ -4,15 +4,14 @@ import {
   Logo,
   NavLinks,
 } from './style';
-import ImagemLogo from '../../assets/logo.webp'
-import {headerTexts} from '../../constants/constants'
+import {headerTexts} from '../../constants/constants';
 
 const Navbar = () => {
   return (
     <>
       <NavbarContainer>
         <Logo>
-          <img src= {ImagemLogo} alt="Logo" />
+          <img src= {headerTexts.logo.src} alt={headerTexts.logo.alt} />
         </Logo>
         <NavLinks>
         <a href={headerTexts.link1.path}>{headerTexts.link1.text}</a>

@@ -11,6 +11,7 @@ export const CarouselImageContainer = styled.div<CarouselImageContainerProps>`
   justify-content: center;
   align-items: center;
   padding: 40px 15px;
+  width: 100vw;
   ${({ larger }: CarouselImageContainerProps) =>
     larger &&
     `

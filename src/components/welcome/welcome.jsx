@@ -9,7 +9,7 @@ import {
   Text
 } from './style';
 import Header from '../header/header'
-import ImgSelo from '../../assets/selo.webp'
+import {welcomeTexts} from '../../constants/constants'
 
 const Navbar = () => {
   return (
@@ -21,28 +21,25 @@ const Navbar = () => {
           <ContentLeft>
             <div>
               <Titulo1>
-                <p>Desbravando o Universo da Musculação</p>
+                <p>{welcomeTexts.p1.text}</p>
               </Titulo1>
-              <p>No reino da busca incessante pela força e estética,
-                a musculação emerge como uma disciplina que vai muito além de levantar pesos.
-                É um compromisso diário com a superação pessoal,
-                um elo entre mente e corpo que se fortalece a cada repetição.</p>
+              <p>{welcomeTexts.p2.text}</p>
               <br></br>
             </div>
             <div>
-              <a href="#">Descubra Mais</a>
+              <a href={welcomeTexts.link1.path}>{welcomeTexts.link1.text}</a>
             </div>
           </ContentLeft>
           {/* Conteúdos à direita */}
           <ContentRight>
             <Selo>
-              <img src={ImgSelo} alt="Selo" />
+              <img src={welcomeTexts.selo.src} alt={welcomeTexts.selo.alt} />
             </Selo>
             <Text>
-              <p>Conteúdo à Direita 1</p>
-              <p>Descrição do Conteúdo à Direita 1.</p>
-              <p>Conteúdo à Direita 2</p>
-              <p>Descrição do Conteúdo à Direita 2.</p>
+              <p>{welcomeTexts.p3.text}</p>
+              <p>{welcomeTexts.p4.text}</p>
+              <p>{welcomeTexts.p5.text}</p>
+              <p>{welcomeTexts.p6.text}</p>
             </Text>
           </ContentRight>
         </ContentWrapper>

@@ -9,13 +9,13 @@ import {
   Text
 } from './style';
 import Header from '../header/header'
-import {welcomeTexts} from '../../constants/constants' 
+import { welcomeTexts } from '../../constants/constants'
 
 const Navbar = () => {
   return (
     <Body>
       <>
-        <Header />
+      <Header />
         <ContentWrapper>
           {/* Conteúdo à esquerda */}
           <ContentLeft>
@@ -36,10 +36,14 @@ const Navbar = () => {
               <img src={welcomeTexts.selo.src} alt={welcomeTexts.selo.alt} />
             </Selo>
             <Text>
-              <p>{welcomeTexts.p3.text}</p>
-              <p>{welcomeTexts.p4.text}</p>
-              <p>{welcomeTexts.p5.text}</p>
-              <p>{welcomeTexts.p6.text}</p>
+              <div>
+                <p>{welcomeTexts.p3.text}</p>
+                <p>{welcomeTexts.p4.text}</p>
+              </div>
+              <div>
+                <p>{welcomeTexts.p5.text}</p>
+                <p>{welcomeTexts.p6.text}</p>
+              </div>
             </Text>
           </ContentRight>
         </ContentWrapper>

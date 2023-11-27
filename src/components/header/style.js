@@ -10,8 +10,6 @@ export const NavbarContainer = styled.div`
   align-items: center;
   color: white;
   padding: 15px;
-  margin-left: 10%;
-  margin-right: 10%;
 
   @media (max-width: 800px) {
     flex-direction: column;
@@ -27,8 +25,8 @@ img {
   }
 
   @media (max-width: 800px) {
-    max-height: 120px;
-  
+    max-height: 150px;
+  margin-top: 20px;
   }
 
 `;
@@ -43,6 +41,16 @@ export const NavLinks = styled.div`
     color: white;
     text-decoration: none;
     margin-left: 20px;
+  }
+
+  @media (max-width: 800px) {
+    position: fixed;
+    padding: 12px 0px;
+    text-align: center;
+    background: black;
+    justify-content: center;
+    width: 100vw;
+    box-shadow: 1px 1px grey;
   }
 `;
 

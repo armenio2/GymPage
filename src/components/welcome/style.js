@@ -18,8 +18,7 @@ export const Body = styled.div`
 `;
 
 export const ContentWrapper = styled.div`
-  margin-left: 10%;
-  margin-right: 10%;
+  padding: 0px 16px;
   display: flex;
   
 
@@ -67,14 +66,17 @@ export const ContentLeft = styled.div`
   @media (max-width: 800px) {
     margin-left: 10vh
     height: 100vh;
+    width: 100vw;
+    padding: 0px;
   }
 
   @media (max-width: 440px) {
     width: 100vw;
     height: 100vh;
     margin: 0px;
+    padding: 0px;
     p{
-      font-size: 14px;
+      font-size: 18px;
     }
   
   }
@@ -98,12 +100,15 @@ export const Titulo1 = styled.div`
 `
 
 export const ContentRight = styled.div`
-  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
   padding: 20px;
   width: 30vw;
   border-radius: 8px;
   text-align: center;
   color: white;
+  justify-content: center;
 
 
   @media (max-width: 800px) {

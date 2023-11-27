@@ -20,7 +20,7 @@ export const LeftColumnContainer = styled.div`
   }
 
   @media (max-width: 440px) {
-    padding: 20px;
+    padding: 20px 0px 20px 20px;;
   }
 
 `;
@@ -60,7 +60,7 @@ export const RightColumnContainer = styled.div`
   
   @media (max-width: 440px) {
     margin-top: 0px;
-    padding: 20px;
+    padding: 0px 20px;
   }
 `;
 
@@ -80,10 +80,7 @@ export const Sec2 = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
   width: 100vw;
-  height: 80vh;
 
-  @media (max-width: 800px) {
-    height: 110vh
-  }
+  
 `;
 

@@ -5,7 +5,7 @@ import backgroundImage from '../../assets/background3.avif'
 export const StyledForm = styled.form`
   display: flex;
   flex-direction: column;
-  max-width: 400px;
+  max-width: 350px;
   margin: auto;
   padding: 20px;
   background: black;
@@ -63,5 +63,9 @@ export const FormBack = styled.div`
 
   @media (min-width: 1280px) {
     background-image: url('${backgroundImage}'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
   }
 `;

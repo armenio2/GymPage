@@ -9,10 +9,10 @@ export const Body = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
   width: 100vw;
-  height: 100vh;
 
-  @media (max-width: 440px) {
-  height: 120vh;
+
+  @media (min-width: 1280px) {
+    height: 100vh;
   }
 
 `;
@@ -66,11 +66,12 @@ export const ContentLeft = styled.div`
 
   @media (max-width: 800px) {
     margin-left: 10vh
-  
+    height: 100vh;
   }
 
   @media (max-width: 440px) {
     width: 100vw;
+    height: 100vh;
     margin: 0px;
     p{
       font-size: 14px;
@@ -107,6 +108,7 @@ export const ContentRight = styled.div`
 
   @media (max-width: 800px) {
     width: 100vw;
+    height: 100vh;
     margin-top: 0px;
     padding-left: 0px;
     

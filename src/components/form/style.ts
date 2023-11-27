@@ -40,6 +40,7 @@ export const FormButton = styled.button`
   padding: 10px;
   cursor: pointer;
   border: none;
+  font-weight: bold;
   border-radius: 4px;
 `;
 
@@ -54,9 +55,13 @@ export const FormBack = styled.div`
   padding: 0;
   background-color: black;
   font-family: 'Poppins', sans-serif;
-  background-image: url('${backgroundImage}'); 
   background-size: cover;
   background-repeat: no-repeat;
   width: 100vw;
   height: 100vh;
+  background: black;
+
+  @media (min-width: 1280px) {
+    background-image: url('${backgroundImage}'); 
+  }
 `;

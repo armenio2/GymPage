@@ -15,10 +15,18 @@ export const StyledForm = styled.form`
 
 export const FormCenter = styled.div`
 padding: 100px;
+
+@media (max-width: 800px) {
+  padding: 40px 0px;
+}
 `
 
 export const FormLabel = styled.label`
   margin-bottom: 8px;
+
+  @media (max-width: 800px) {
+    text-align: center;
+  }
 `;
 
 export const FormInput = styled.input`
@@ -41,7 +49,7 @@ export const FormTextArea = styled.textarea`
 `;
 
 
-export const FormBack = styled.body`
+export const FormBack = styled.div`
   margin: 0;
   padding: 0;
   background-color: black;

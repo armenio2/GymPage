@@ -18,7 +18,7 @@ export const Body = styled.div`
 `;
 
 export const ContentWrapper = styled.div`
-  padding: 0px 16px;
+  
   display: flex;
   
 
@@ -67,16 +67,23 @@ export const ContentLeft = styled.div`
     margin-left: 10vh
     height: 100vh;
     width: 100vw;
-    padding: 0px;
+    padding: 0px 16px;
+
+    a{
+      margin-left: 0px;
+    }
   }
 
   @media (max-width: 440px) {
     width: 100vw;
     height: 100vh;
     margin: 0px;
-    padding: 0px;
+    padding: 0 16px;
     p{
       font-size: 18px;
+    }
+    a{
+      margin-left: 0px;
     }
   
   }
@@ -115,10 +122,12 @@ export const ContentRight = styled.div`
     width: 100vw;
     height: 100vh;
     margin-top: 0px;
-    padding-left: 0px;
+    padding: 0px;
     
+    align-items: center;
     p{
       font-size: 14px;
+      font-weight: bold;
     }
     img{
       display: none;
@@ -131,6 +140,34 @@ export const Selo = styled.div`
     max-width: 150px;
   }
 `;
+
+export const Bola = styled.div`
+@media (max-width: 800px) {
+  width: 300px; /* Ajuste conforme necessário */
+  height: 300px; /* Ajuste conforme necessário */
+  border-radius: 100%;
+  background-color: orange;
+  border: 1px solid #ff4500;
+  align-items: center;
+  padding: 0px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+  }
+`
+
+export const FontBig = styled.div`
+p{
+  font-size: 64px;
+  margin: 0px;
+}
+`
+
+export const FontSmall = styled.div`
+p{
+  font-size: 30px;
+  margin-top: 0px;
+}
+`
+
 
 export const Text = styled.div`
 

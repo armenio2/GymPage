@@ -40,7 +40,8 @@ export const NavLinks = styled.div`
   a {
     color: white;
     text-decoration: none;
-    margin-left: 20px;
+    margin: 0 12px;
+
   }
 
   @media (max-width: 800px) {
@@ -48,7 +49,7 @@ export const NavLinks = styled.div`
     padding: 12px 0px;
     text-align: center;
     background: black;
-    justify-content: center;
+    justify-content: space-between;
     width: 100vw;
     box-shadow: 1px 1px grey;
   }

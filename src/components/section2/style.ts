@@ -20,7 +20,7 @@ export const LeftColumnContainer = styled.div`
   }
 
   @media (max-width: 440px) {
-    padding: 20px 0px 20px 20px;;
+    padding: 20px;
   }
 
 `;
@@ -40,6 +40,7 @@ export const Who1 = styled.div`
 font-size: 20px;
 
 @media (max-width: 440px) {
+  margin-bottom: 15px;
   p{
     font-size: 14px;
   }
@@ -60,14 +61,13 @@ export const RightColumnContainer = styled.div`
   
   @media (max-width: 440px) {
     margin-top: 0px;
-    padding: 0px 20px;
+    padding: 20px;
   }
 `;
 
 export const Link = styled.a`
 color: white;
 text-decoration: none;
-margin-left: 20px;
 font-weight: bold;
 
 `;

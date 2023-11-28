@@ -34,10 +34,10 @@ export const welcomeTexts = {
     
     selo: { src: ImgSelo, alt: 'Selo'}, // SELO CONTEUDO DIREITA
 
-    p3: { text: 'Conteúdo à Direita 1' },
-    p4: { text: 'Descrição do Conteúdo à Direita 1.' },
-    p5: { text: 'Conteúdo à Direita 2' },
-    p6: { text: 'Descrição do Conteúdo à Direita 2.' },
+    p3: { text: '17M' },
+    p4: { text: 'Inscritos' },
+    p5: { text: '57' },
+    p6: { text: 'Maquinas' },
 
     link1: { text: 'Descubra Mais', path: 'LinkAqui' },
 }

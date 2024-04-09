@@ -9,9 +9,9 @@ const Form: React.FC = () => {
     e.preventDefault();
     console.log(e);
     const emailConfig = {
-      SecureToken: 'deb5aea6-526c-4e2f-a90b-51e18327e800',
-      To: 'acad1377@gmail.com', // Substitua pelo endereço de e-mail do destinatário
-      From: `acad1377@gmail.com`,
+      SecureToken: '********************', // Secure Token Ex: 44ab77csd-451a-4a8s-a90b-51e00000000
+      To: '*****************', // Substitua pelo endereço de e-mail do destinatário
+      From: `************************`,
       Subject: `Nova mensagem de ${e.target[0].value}, `,
       Body: `${e.target[1].value}, ${e.target[2].value}`,
     };
